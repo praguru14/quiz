@@ -1,0 +1,858 @@
+{
+  "quiz": {
+    "Angular":  [
+      {
+        "question": "What is an Angular module used for?",
+        "options": [
+          "To organize components, services, and other modules",
+          "To define component styles",
+          "To provide custom directives",
+          "To manage HTTP requests"
+        ],
+        "answer": "To organize components, services, and other modules"
+      },
+      {
+        "question": "Which Angular module is required for reactive forms?",
+        "options": [
+          "ReactiveFormsModule",
+          "FormsModule",
+          "CommonModule",
+          "HttpClientModule"
+        ],
+        "answer": "ReactiveFormsModule"
+      },
+      {
+        "question": "What does `ngOnDestroy()` lifecycle hook do?",
+        "options": [
+          "It cleans up resources before the component is destroyed",
+          "It initializes the component",
+          "It runs after a component's view is initialized",
+          "It performs change detection"
+        ],
+        "answer": "It cleans up resources before the component is destroyed"
+      },
+      {
+        "question": "What is the purpose of `ngAfterViewChecked()` lifecycle hook?",
+        "options": [
+          "It is called after the view and child views are checked for changes",
+          "It is called after the component is initialized",
+          "It is called before the view is checked",
+          "It is used to update the DOM"
+        ],
+        "answer": "It is called after the view and child views are checked for changes"
+      },
+      {
+        "question": "Which operator is used to handle asynchronous operations in Angular?",
+        "options": [
+          "async",
+          "await",
+          "Promise",
+          "rxjs"
+        ],
+        "answer": "rxjs"
+      },
+      {
+        "question": "How can you prevent a component from being re-rendered in Angular?",
+        "options": [
+          "By using OnPush change detection strategy",
+          "By using ngIf",
+          "By using ngOnDestroy",
+          "By using a static variable"
+        ],
+        "answer": "By using OnPush change detection strategy"
+      },
+      {
+        "question": "What is the function of the `@Input()` decorator in Angular?",
+        "options": [
+          "To pass data from a parent component to a child component",
+          "To bind an event to a child component",
+          "To emit events from the component",
+          "To define the output of a service"
+        ],
+        "answer": "To pass data from a parent component to a child component"
+      },
+      {
+        "question": "Which of the following is true about services in Angular?",
+        "options": [
+          "Services are used to organize business logic",
+          "Services can be injected into components",
+          "Services are singletons by default",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "question": "Which of the following is the correct syntax for defining a route in Angular?",
+        "options": [
+          "{ path: 'home', component: HomeComponent }",
+          "{ route: 'home', component: HomeComponent }",
+          "{ path: 'home', component: 'HomeComponent' }",
+          "{ path: 'home' -> HomeComponent }"
+        ],
+        "answer": "{ path: 'home', component: HomeComponent }"
+      },
+      {
+        "question": "Which lifecycle hook is triggered after Angular initializes the component's content?",
+        "options": [
+          "ngAfterContentInit",
+          "ngOnInit",
+          "ngAfterViewInit",
+          "ngOnChanges"
+        ],
+        "answer": "ngAfterContentInit"
+      },
+      {
+        "question": "What is the main use of `ng-content` in Angular?",
+        "options": [
+          "To project content into a component's template",
+          "To add dynamic styles to a component",
+          "To bind an external service",
+          "To pass data to a component"
+        ],
+        "answer": "To project content into a component's template"
+      },
+      {
+        "question": "How can you make HTTP requests in Angular?",
+        "options": [
+          "HttpClient service",
+          "HttpModule",
+          "XHRRequest",
+          "HttpRequest"
+        ],
+        "answer": "HttpClient service"
+      },
+      {
+        "question": "Which operator from RxJS is used to combine multiple observables into one?",
+        "options": [
+          "merge",
+          "map",
+          "filter",
+          "mergeMap"
+        ],
+        "answer": "mergeMap"
+      },
+      {
+        "question": "What does the `ngIf` directive do in Angular?",
+        "options": [
+          "It conditionally includes or excludes an element",
+          "It handles user inputs",
+          "It executes a function",
+          "It binds data to the component"
+        ],
+        "answer": "It conditionally includes or excludes an element"
+      },
+      {
+        "question": "Which lifecycle hook is used to detect changes in a component in Angular?",
+        "options": [
+          "ngDoCheck",
+          "ngOnChanges",
+          "ngAfterViewChecked",
+          "ngOnInit"
+        ],
+        "answer": "ngDoCheck"
+      },
+      {
+        "question": "Which of the following is used to define the routes in Angular?",
+        "options": [
+          "RouterModule.forRoot()",
+          "RouterModule.forRoutes()",
+          "RouteConfig.forRoutes()",
+          "Router.forRoot()"
+        ],
+        "answer": "RouterModule.forRoot()"
+      },
+      {
+        "question": "Which Angular service is used to manage HTTP interceptors?",
+        "options": [
+          "HttpClient",
+          "HttpInterceptor",
+          "HttpService",
+          "HttpHandler"
+        ],
+        "answer": "HttpClient"
+      },
+      {
+        "question": "What is the primary use of `ngOnInit()` in Angular?",
+        "options": [
+          "It runs once after Angular first displays the data-bound properties",
+          "It updates the component's data",
+          "It handles user input events",
+          "It performs the initial HTTP request"
+        ],
+        "answer": "It runs once after Angular first displays the data-bound properties"
+      },
+      {
+        "question": "Which directive is used to handle dynamic style binding in Angular?",
+        "options": [
+          "ngStyle",
+          "ngClass",
+          "ngModel",
+          "ngBind"
+        ],
+        "answer": "ngStyle"
+      },
+      {
+        "question": "What is the `ng-container` directive used for in Angular?",
+        "options": [
+          "To group elements in the DOM without adding extra HTML elements",
+          "To create a dynamic container for content",
+          "To handle events",
+          "To define reusable components"
+        ],
+        "answer": "To group elements in the DOM without adding extra HTML elements"
+      },
+      {
+        "question": "Which of the following is an observable-based HTTP request method in Angular?",
+        "options": [
+          "get()",
+          "post()",
+          "put()",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "question": "What is the purpose of the `ngAfterContentChecked()` lifecycle hook?",
+        "options": [
+          "It is called after Angular checks the content projected into the component",
+          "It is used to initialize the component",
+          "It is used to clean up resources",
+          "It runs after the view is initialized"
+        ],
+        "answer": "It is called after Angular checks the content projected into the component"
+      },
+      {
+        "question": "Which property is used to set the input value of a form control in Angular?",
+        "options": [
+          "value",
+          "ngModel",
+          "model",
+          "inputValue"
+        ],
+        "answer": "ngModel"
+      },
+      {
+        "question": "Which Angular module is needed to handle browser-based routing?",
+        "options": [
+          "RouterModule",
+          "BrowserModule",
+          "HttpClientModule",
+          "CommonModule"
+        ],
+        "answer": "RouterModule"
+      },
+      {
+        "question": "How can you manage errors in Angular HTTP requests?",
+        "options": [
+          "Using `catchError` operator",
+          "Using try-catch",
+          "Using `throwError` function",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      }
+    ],
+    "JavaScript": [
+      {
+        "question": "What is the output of `console.log(typeof null);`?",
+        "options": [
+          "'null'",
+          "'undefined'",
+          "'object'",
+          "'number'"
+        ],
+        "answer": "'object'"
+      },
+      {
+        "question": "Which keyword is used to declare a constant variable in JavaScript?",
+        "options": [
+          "let",
+          "var",
+          "const",
+          "static"
+        ],
+        "answer": "const"
+      },
+      {
+        "question": "Which method is used to convert a JSON string into a JavaScript object?",
+        "options": [
+          "JSON.parse()",
+          "JSON.stringify()",
+          "JSON.convert()",
+          "JSON.objectify()"
+        ],
+        "answer": "JSON.parse()"
+      },
+      {
+        "question": "What will `typeof NaN` return in JavaScript?",
+        "options": [
+          "number",
+          "NaN",
+          "undefined",
+          "object"
+        ],
+        "answer": "number"
+      },
+      {
+        "question": "Which function is used to add an event listener in JavaScript?",
+        "options": [
+          "addEventListener()",
+          "onEvent()",
+          "listenEvent()",
+          "bindEvent()"
+        ],
+        "answer": "addEventListener()"
+      },
+      {
+        "question": "Which method is used to find the length of an array in JavaScript?",
+        "options": [
+          "length",
+          "size",
+          "count",
+          "arrayLength"
+        ],
+        "answer": "length"
+      },
+      {
+        "question": "Which method is used to round a number to the nearest integer in JavaScript?",
+        "options": [
+          "Math.round()",
+          "Math.ceil()",
+          "Math.floor()",
+          "Math.trunc()"
+        ],
+        "answer": "Math.round()"
+      },
+      {
+        "question": "Which JavaScript operator is used to check both type and value?",
+        "options": [
+          "===",
+          "==",
+          "!==",
+          "!"
+        ],
+        "answer": "==="
+      },
+      {
+        "question": "Which method is used to remove the last element from an array in JavaScript?",
+        "options": [
+          "pop()",
+          "shift()",
+          "slice()",
+          "remove()"
+        ],
+        "answer": "pop()"
+      },
+      {
+        "question": "What does `JSON.stringify()` do in JavaScript?",
+        "options": [
+          "Converts a JavaScript object into a JSON string",
+          "Parses a JSON string into an object",
+          "Converts an array into a JSON object",
+          "Serializes an object"
+        ],
+        "answer": "Converts a JavaScript object into a JSON string"
+      },
+      {
+        "question": "What does the `this` keyword refer to in JavaScript?",
+        "options": [
+          "The object from which the method is called",
+          "The function that is currently executing",
+          "The global object",
+          "The element that triggered the event"
+        ],
+        "answer": "The object from which the method is called"
+      },
+      {
+        "question": "Which operator is used to check if two values are not equal in JavaScript?",
+        "options": [
+          "!=",
+          "!==",
+          "!=" ,
+          "&&"
+        ],
+        "answer": "!=="
+      },
+      {
+        "question": "Which method is used to combine two or more arrays in JavaScript?",
+        "options": [
+          "concat()",
+          "merge()",
+          "join()",
+          "combine()"
+        ],
+        "answer": "concat()"
+      },
+      {
+        "question": "What does the `map()` method do in JavaScript?",
+        "options": [
+          "Creates a new array by applying a function to each element",
+          "Filters an array based on a condition",
+          "Joins the elements of an array into a string",
+          "Executes a function once for each array element"
+        ],
+        "answer": "Creates a new array by applying a function to each element"
+      },
+      {
+        "question": "What will the following code return: `2 + '2'`?",
+        "options": [
+          "22",
+          "4",
+          "Error",
+          "NaN"
+        ],
+        "answer": "22"
+      },
+      {
+        "question": "Which method is used to get a substring from a string in JavaScript?",
+        "options": [
+          "substring()",
+          "substr()",
+          "slice()",
+          "split()"
+        ],
+        "answer": "substring()"
+      },
+      {
+        "question": "What does `NaN` stand for in JavaScript?",
+        "options": [
+          "Not a Number",
+          "Not Available Number",
+          "New Array Number",
+          "Null Number"
+        ],
+        "answer": "Not a Number"
+      },
+      {
+        "question": "Which method is used to sort an array in JavaScript?",
+        "options": [
+          "sort()",
+          "order()",
+          "arrange()",
+          "sortArray()"
+        ],
+        "answer": "sort()"
+      },
+    
+      {
+        "question": "Which method is used to add an element at the beginning of an array in JavaScript?",
+        "options": [
+          "unshift()",
+          "push()",
+          "pop()",
+          "shift()"
+        ],
+        "answer": "unshift()"
+      },
+      {
+        "question": "Which of the following is a valid function declaration in JavaScript?",
+        "options": [
+          "function myFunction() {}",
+          "myFunction() => {}",
+          "var myFunction = function() {}",
+          "all of the above"
+        ],
+        "answer": "all of the above"
+      }
+    ]
+  
+  ,
+  "SpringBoot": [
+    {
+      "question": "What is the difference between Spring Boot and Spring Framework?",
+      "options": [
+        "Spring Boot is a framework, while Spring Framework is a set of libraries.",
+        "Spring Boot is for microservices, whereas Spring Framework is for monolithic applications.",
+        "Spring Boot simplifies configuration and deployment, whereas Spring Framework requires more configuration.",
+        "Spring Boot is only for backend applications, while Spring Framework can be used for frontend as well."
+      ],
+      "answer": "Spring Boot simplifies configuration and deployment, whereas Spring Framework requires more configuration."
+    },
+    {
+      "question": "What is Spring Boot's 'auto-configuration' feature?",
+      "options": [
+        "It automatically configures beans and components based on the application's needs.",
+        "It automatically generates Spring Boot classes.",
+        "It is used for class-level annotations in Spring Boot applications.",
+        "It automatically configures a new Spring Boot project structure."
+      ],
+      "answer": "It automatically configures beans and components based on the application's needs."
+    },
+    {
+      "question": "What is the role of Spring Boot's application.properties file?",
+      "options": [
+        "It contains Spring Boot's build configuration.",
+        "It holds the application’s runtime configurations like database connection, server port, etc.",
+        "It stores the application's Java code.",
+        "It is used for handling the application's security."
+      ],
+      "answer": "It holds the application’s runtime configurations like database connection, server port, etc."
+    },
+    {
+      "question": "How do you create a custom Spring Boot starter?",
+      "options": [
+        "By creating a custom module and adding it to the 'spring-boot-starters' group.",
+        "By creating a new JAR file with custom dependencies.",
+        "By creating a new Maven or Gradle project with custom dependencies and annotations.",
+        "By adding custom annotations to a new Spring Boot application."
+      ],
+      "answer": "By creating a new Maven or Gradle project with custom dependencies and annotations."
+    },
+    {
+      "question": "What is Spring Boot Actuator used for?",
+      "options": [
+        "It provides built-in features for managing and monitoring Spring Boot applications.",
+        "It is used for logging purposes in Spring Boot applications.",
+        "It helps in building and testing Spring Boot applications.",
+        "It is used for performance optimization."
+      ],
+      "answer": "It provides built-in features for managing and monitoring Spring Boot applications."
+    },
+    {
+      "question": "What is the difference between @RestController and @Controller annotations in Spring Boot?",
+      "options": [
+        "@RestController is used to create RESTful services while @Controller is for handling views.",
+        "@RestController is used only in Spring MVC, whereas @Controller is used in Spring WebFlux.",
+        "@RestController sends JSON responses automatically, while @Controller handles responses in JSP.",
+        "@RestController is used for views and @Controller is used for APIs."
+      ],
+      "answer": "@RestController is used to create RESTful services while @Controller is for handling views."
+    },
+    {
+      "question": "What is a Spring Boot 'Profile'?",
+      "options": [
+        "It is used for defining configuration and environment settings specific to the application.",
+        "It is used for defining different modules in Spring Boot.",
+        "It is used for managing the application's lifecycle.",
+        "It is used for defining the user roles in Spring Boot."
+      ],
+      "answer": "It is used for defining configuration and environment settings specific to the application."
+    },
+    {
+      "question": "What is Spring Boot's 'Embedded Server'?",
+      "options": [
+        "It is a lightweight server that Spring Boot uses internally to run applications.",
+        "It is a library used for setting up Spring Boot applications.",
+        "It is an external dependency that needs to be installed manually.",
+        "It is used to compile and deploy Spring Boot applications."
+      ],
+      "answer": "It is a lightweight server that Spring Boot uses internally to run applications."
+    },
+    {
+      "question": "What is the purpose of the Spring Boot 'CommandLineRunner' interface?",
+      "options": [
+        "It is used to execute code at the start of the application after the context has been loaded.",
+        "It is used for handling HTTP requests in Spring Boot.",
+        "It is used for creating REST APIs in Spring Boot.",
+        "It is used to run automated tests in Spring Boot."
+      ],
+      "answer": "It is used to execute code at the start of the application after the context has been loaded."
+    },
+    {
+      "question": "How do you configure a custom error page in Spring Boot?",
+      "options": [
+        "By adding a controller method that returns a custom view for error codes.",
+        "By configuring a custom 'ErrorController' implementation.",
+        "By using custom configuration in the application.properties file.",
+        "By configuring an HTTP error handler in a servlet."
+      ],
+      "answer": "By configuring a custom 'ErrorController' implementation."
+    },
+    {
+      "question": "What is Spring Security?",
+      "options": [
+        "It provides authentication and authorization mechanisms for Spring applications.",
+        "It is used to build REST APIs in Spring Boot.",
+        "It manages HTTP sessions in Spring Boot.",
+        "It is used to handle database connections securely."
+      ],
+      "answer": "It provides authentication and authorization mechanisms for Spring applications."
+    },
+    {
+      "question": "How do you define a transactional method in Spring Boot?",
+      "options": [
+        "By using the @Transactional annotation.",
+        "By using a custom annotation called @Transaction.",
+        "By defining the transaction logic manually.",
+        "By configuring transactions in the application.properties file."
+      ],
+      "answer": "By using the @Transactional annotation."
+    },
+    {
+      "question": "What is the purpose of Spring Boot's 'DevTools'?",
+      "options": [
+        "It provides additional development-time features such as automatic restarts and live reload.",
+        "It is used for testing Spring Boot applications.",
+        "It provides additional logging capabilities.",
+        "It is used for creating production-ready Spring Boot applications."
+      ],
+      "answer": "It provides additional development-time features such as automatic restarts and live reload."
+    },
+    {
+      "question": "How does Spring Boot support externalized configuration?",
+      "options": [
+        "Through property files, YAML files, environment variables, and command-line arguments.",
+        "By storing configuration in a database.",
+        "By using the @Config annotation.",
+        "By compiling configuration into the source code."
+      ],
+      "answer": "Through property files, YAML files, environment variables, and command-line arguments."
+    },
+    {
+      "question": "What is Spring Boot's 'Profile' feature?",
+      "options": [
+        "It is used to define environment-specific configurations and beans.",
+        "It helps in setting up user-specific roles.",
+        "It is used for defining different application layers.",
+        "It helps in managing database connections."
+      ],
+      "answer": "It is used to define environment-specific configurations and beans."
+    },
+    {
+      "question": "What is the purpose of Spring Boot's '@EnableAutoConfiguration' annotation?",
+      "options": [
+        "It enables Spring Boot's automatic configuration feature.",
+        "It is used to enable Spring Security.",
+        "It configures Spring Boot to start a specific embedded server.",
+        "It is used to enable database configuration."
+      ],
+      "answer": "It enables Spring Boot's automatic configuration feature."
+    },
+    {
+      "question": "What is the significance of Spring Boot's 'application.yml' file?",
+      "options": [
+        "It is used to define the application's configuration and settings in YAML format.",
+        "It is used to configure the database connection in XML format.",
+        "It contains Spring Boot starter dependencies.",
+        "It is used to store user data."
+      ],
+      "answer": "It is used to define the application's configuration and settings in YAML format."
+    },
+    {
+      "question": "How can Spring Boot applications be tested?",
+      "options": [
+        "Using Spring Boot's testing annotations like @SpringBootTest, @MockBean, etc.",
+        "By running unit tests only.",
+        "By using only integration testing tools.",
+        "By using JUnit without Spring Boot-specific features."
+      ],
+      "answer": "Using Spring Boot's testing annotations like @SpringBootTest, @MockBean, etc."
+    },
+    {
+      "question": "What is the role of 'Spring Boot DevTools'?",
+      "options": [
+        "It provides enhanced development features like automatic restart, live reload, and remote debugging.",
+        "It helps in testing Spring Boot applications.",
+        "It helps in security configuration.",
+        "It speeds up the Spring Boot project setup process."
+      ],
+      "answer": "It provides enhanced development features like automatic restart, live reload, and remote debugging."
+    },
+    {
+      "question": "How does Spring Boot handle the dependency injection?",
+      "options": [
+        "Spring Boot uses annotations like @Autowired and @Inject for dependency injection.",
+        "Spring Boot uses a manual constructor injection method.",
+        "Spring Boot doesn't use dependency injection.",
+        "Spring Boot uses XML-based configuration for dependency injection."
+      ],
+      "answer": "Spring Boot uses annotations like @Autowired and @Inject for dependency injection."
+    },
+    {
+      "question": "How do you handle application properties in a Spring Boot microservice?",
+      "options": [
+        "You can use application.properties or application.yml for configuration.",
+        "You store application properties in a database.",
+        "You store all configuration in the source code.",
+        "You create multiple configuration files for each environment."
+      ],
+      "answer": "You can use application.properties or application.yml for configuration."
+    }
+  ]
+,
+"Java": [
+    {
+      "question": "What is the difference between '=='' and '.equals()' in Java?",
+      "options": [
+        "'==' compares object references, while '.equals()' compares object contents.",
+        "'==' compares object contents, while '.equals()' compares object references.",
+        "'==' is used for primitive data types, while '.equals()' is used for objects.",
+        "Both '==' and '.equals()' are used to compare object references."
+      ],
+      "answer": "'==' compares object references, while '.equals()' compares object contents."
+    },
+    {
+      "question": "What is the significance of the 'transient' keyword in Java?",
+      "options": [
+        "It marks a field to be excluded from serialization.",
+        "It marks a field as volatile.",
+        "It marks a field to be included in serialization.",
+        "It allows a field to be used only in the current thread."
+      ],
+      "answer": "It marks a field to be excluded from serialization."
+    },
+    {
+      "question": "What is the difference between 'ArrayList' and 'LinkedList' in Java?",
+      "options": [
+        "ArrayList is backed by a dynamic array, while LinkedList is backed by a doubly linked list.",
+        "ArrayList uses less memory than LinkedList.",
+        "LinkedList is faster than ArrayList for index-based access.",
+        "ArrayList does not allow null values, while LinkedList does."
+      ],
+      "answer": "ArrayList is backed by a dynamic array, while LinkedList is backed by a doubly linked list."
+    },
+    {
+      "question": "What is the purpose of the 'volatile' keyword in Java?",
+      "options": [
+        "It ensures visibility of changes to variables across multiple threads.",
+        "It is used to prevent the variable from being optimized by the compiler.",
+        "It marks a field to be synchronized across threads.",
+        "It ensures atomicity of operations on the variable."
+      ],
+      "answer": "It ensures visibility of changes to variables across multiple threads."
+    },
+    {
+      "question": "What is a 'singleton' design pattern in Java?",
+      "options": [
+        "A pattern that ensures a class has only one instance and provides a global point of access to it.",
+        "A pattern that allows only one object to be created in a method.",
+        "A pattern that creates one object for each thread.",
+        "A pattern that allows dynamic object creation during runtime."
+      ],
+      "answer": "A pattern that ensures a class has only one instance and provides a global point of access to it."
+    },
+    {
+      "question": "What is the role of 'synchronized' keyword in Java?",
+      "options": [
+        "It is used to control access to a method or block by multiple threads to ensure data consistency.",
+        "It allows a method to execute in parallel with others.",
+        "It ensures that only one thread can access an object at a time.",
+        "It marks a method for asynchronous execution."
+      ],
+      "answer": "It is used to control access to a method or block by multiple threads to ensure data consistency."
+    },
+    {
+      "question": "What is the difference between 'final', 'finally', and 'finalize' in Java?",
+      "options": [
+        "'final' is used to declare constants, 'finally' is used to execute code after a try-catch block, 'finalize' is used to clean up before garbage collection.",
+        "'final' is used for method overriding, 'finally' is for exception handling, 'finalize' is used to make variables constant.",
+        "'final' is used to prevent inheritance, 'finally' is used to handle exceptions, 'finalize' is used for garbage collection.",
+        "'final' is used to declare methods, 'finally' is for method declaration, 'finalize' is for memory management."
+      ],
+      "answer": "'final' is used to declare constants, 'finally' is used to execute code after a try-catch block, 'finalize' is used to clean up before garbage collection."
+    },
+    {
+      "question": "What is the difference between 'StringBuilder' and 'StringBuffer' in Java?",
+      "options": [
+        "StringBuffer is synchronized, while StringBuilder is not.",
+        "StringBuilder is synchronized, while StringBuffer is not.",
+        "Both are synchronized, but StringBuilder is more efficient.",
+        "StringBuffer is immutable, while StringBuilder is mutable."
+      ],
+      "answer": "StringBuffer is synchronized, while StringBuilder is not."
+    },
+    {
+      "question": "What is the purpose of the 'hashCode()' method in Java?",
+      "options": [
+        "It returns a hash code value for the object, used for hash-based collections.",
+        "It returns the memory address of the object.",
+        "It compares the object with another object.",
+        "It returns a unique identifier for the object."
+      ],
+      "answer": "It returns a hash code value for the object, used for hash-based collections."
+    },
+    {
+      "question": "What are the differences between 'Checked' and 'Unchecked' exceptions in Java?",
+      "options": [
+        "Checked exceptions are checked at compile-time, while unchecked exceptions are checked at runtime.",
+        "Checked exceptions are errors, while unchecked exceptions are exceptions.",
+        "Unchecked exceptions are caused by runtime errors, while checked exceptions are due to logical errors.",
+        "Checked exceptions are user-defined, while unchecked exceptions are system-defined."
+      ],
+      "answer": "Checked exceptions are checked at compile-time, while unchecked exceptions are checked at runtime."
+    },
+    {
+      "question": "What is the role of the 'interface' keyword in Java?",
+      "options": [
+        "It defines a contract that implementing classes must follow without providing method implementations.",
+        "It defines a method that a class can inherit.",
+        "It defines a concrete class.",
+        "It allows for multi-level inheritance."
+      ],
+      "answer": "It defines a contract that implementing classes must follow without providing method implementations."
+    },
+    {
+      "question": "What is the difference between 'ArrayList' and 'Vector' in Java?",
+      "options": [
+        "ArrayList is not synchronized, while Vector is synchronized.",
+        "Vector is more efficient than ArrayList for random access.",
+        "ArrayList allows only unique elements, while Vector allows duplicates.",
+        "Vector has a larger initial capacity compared to ArrayList."
+      ],
+      "answer": "ArrayList is not synchronized, while Vector is synchronized."
+    },
+    {
+      "question": "What is the purpose of the 'try-with-resources' statement in Java?",
+      "options": [
+        "It automatically closes resources such as files and sockets when they are no longer needed.",
+        "It is used to handle multiple exceptions in a single block.",
+        "It provides exception handling during method execution.",
+        "It improves performance by optimizing resource usage."
+      ],
+      "answer": "It automatically closes resources such as files and sockets when they are no longer needed."
+    },
+    {
+      "question": "What is the difference between 'public', 'private', 'protected', and 'default' access modifiers in Java?",
+      "options": [
+        "Public allows access from anywhere, private restricts access to within the same class, protected allows access within the same package and subclasses, default allows access only within the same package.",
+        "Public allows access from anywhere, private allows access from within the same package, protected allows access from the same package, default allows access from subclasses.",
+        "Public allows access only from subclasses, private allows access only within the same package, protected allows access from anywhere.",
+        "Private allows access from anywhere, protected allows access from the same package, public allows access from subclasses."
+      ],
+      "answer": "Public allows access from anywhere, private restricts access to within the same class, protected allows access within the same package and subclasses, default allows access only within the same package."
+    },
+    {
+      "question": "What is the difference between 'super' and 'this' in Java?",
+      "options": [
+        "'super' refers to the superclass, while 'this' refers to the current instance.",
+        "'super' refers to the current instance, while 'this' refers to the superclass.",
+        "'super' refers to a static method, while 'this' refers to an instance method.",
+        "'super' is used for method overriding, while 'this' is used for method overloading."
+      ],
+      "answer": "'super' refers to the superclass, while 'this' refers to the current instance."
+    },
+    {
+      "question": "What are the features of Java 8 'Streams' API?",
+      "options": [
+        "It provides a functional approach to processing sequences of elements.",
+        "It allows parallel processing of collections.",
+        "It supports operations like filter, map, and reduce on collections.",
+        "All of the above."
+      ],
+      "answer": "All of the above."
+    },
+    {
+      "question": "What is the purpose of the 'default' keyword in Java interfaces (Java 8)?",
+      "options": [
+        "It allows method implementations in interfaces.",
+        "It provides an abstract method in interfaces.",
+        "It allows overriding methods in subclasses.",
+        "It makes an interface method optional to implement."
+      ],
+      "answer": "It allows method implementations in interfaces."
+    },
+    {
+      "question": "What is the purpose of 'lambda expressions' in Java 8?",
+      "options": [
+        "Lambda expressions allow concise representation of functional interfaces.",
+        "Lambda expressions replace anonymous classes.",
+        "Lambda expressions allow passing behavior as parameters to methods.",
+        "All of the above."
+      ],
+      "answer": "All of the above."
+    }
+  ]
+}
+}
+
+
