@@ -1,0 +1,412 @@
+{
+  "quiz": {
+    "HTML": [
+      {
+        "question": "What does the <meta> tag primarily define in an HTML document?",
+        "options": [
+          "Styles and layout",
+          "Metadata like charset and viewport",
+          "JavaScript behavior",
+          "Links to external files"
+        ],
+        "answer": "Metadata like charset and viewport"
+      },
+      {
+        "question": "Which HTML tag is used to define an unordered list?",
+        "options": [
+          "<ul>",
+          "<ol>",
+          "<li>",
+          "<list>"
+        ],
+        "answer": "<ul>"
+      },
+      {
+        "question": "Which HTML element is used to define a hyperlink?",
+        "options": [
+          "<a>",
+          "<link>",
+          "<href>",
+          "<button>"
+        ],
+        "answer": "<a>"
+      },
+      {
+        "question": "What is the correct HTML element for inserting a line break?",
+        "options": [
+          "<br>",
+          "<break>",
+          "<hr>",
+          "<line>"
+        ],
+        "answer": "<br>"
+      },
+      {
+        "question": "Which HTML element defines the largest heading?",
+        "options": [
+          "<h1>",
+          "<h6>",
+          "<head>",
+          "<h2>"
+        ],
+        "answer": "<h1>"
+      },
+      {
+        "question": "Which attribute is used to specify the source of an image in HTML?",
+        "options": [
+          "src",
+          "href",
+          "alt",
+          "img"
+        ],
+        "answer": "src"
+      },
+      {
+        "question": "Which HTML element is used to display an image?",
+        "options": [
+          "<img>",
+          "<image>",
+          "<src>",
+          "<pic>"
+        ],
+        "answer": "<img>"
+      },
+      {
+        "question": "What is the purpose of the <form> element in HTML?",
+        "options": [
+          "To create a form for user input",
+          "To format content",
+          "To display a table",
+          "To define an image"
+        ],
+        "answer": "To create a form for user input"
+      },
+      {
+        "question": "Which tag is used to create a table in HTML?",
+        "options": [
+          "<table>",
+          "<tr>",
+          "<td>",
+          "<th>"
+        ],
+        "answer": "<table>"
+      },
+      {
+        "question": "Which HTML tag is used for inserting a comment?",
+        "options": [
+          "<!-- -->",
+          "//",
+          "<comment>",
+          "<#>"
+        ],
+        "answer": "<!-- -->"
+      }
+    ],
+    "CSS": [
+      {
+        "question": "Which CSS property is used to change the text color?",
+        "options": [
+          "color",
+          "font-color",
+          "text-color",
+          "background-color"
+        ],
+        "answer": "color"
+      },
+      {
+        "question": "Which property is used to control the size of the text?",
+        "options": [
+          "font-size",
+          "text-size",
+          "font-weight",
+          "text-width"
+        ],
+        "answer": "font-size"
+      },
+      {
+        "question": "Which property is used to make text bold in CSS?",
+        "options": [
+          "font-weight",
+          "text-style",
+          "bold",
+          "font-style"
+        ],
+        "answer": "font-weight"
+      },
+      {
+        "question": "Which CSS property is used to change the background color of an element?",
+        "options": [
+          "background-color",
+          "color",
+          "background-image",
+          "bg-color"
+        ],
+        "answer": "background-color"
+      },
+      {
+        "question": "Which property is used to set the spacing between lines of text in CSS?",
+        "options": [
+          "line-height",
+          "spacing",
+          "text-indent",
+          "letter-spacing"
+        ],
+        "answer": "line-height"
+      },
+      {
+        "question": "Which CSS property is used to create space between the content and the border of an element?",
+        "options": [
+          "padding",
+          "margin",
+          "border-spacing",
+          "space"
+        ],
+        "answer": "padding"
+      },
+      {
+        "question": "Which CSS property is used to align text?",
+        "options": [
+          "text-align",
+          "align-text",
+          "justify",
+          "align-items"
+        ],
+        "answer": "text-align"
+      },
+      {
+        "question": "Which property is used to control the display type of an element in CSS?",
+        "options": [
+          "display",
+          "visibility",
+          "position",
+          "float"
+        ],
+        "answer": "display"
+      },
+      {
+        "question": "Which CSS property is used to control the positioning of an element?",
+        "options": [
+          "position",
+          "float",
+          "align",
+          "location"
+        ],
+        "answer": "position"
+      },
+      {
+        "question": "Which CSS property controls the font size of text?",
+        "options": [
+          "font-size",
+          "font-family",
+          "text-size",
+          "letter-spacing"
+        ],
+        "answer": "font-size"
+      }
+    ],
+    "Angular": [
+      {
+        "question": "Which Angular directive is used for two-way data binding?",
+        "options": [
+          "ng-bind",
+          "ng-model",
+          "ng-if",
+          "ng-for"
+        ],
+        "answer": "ng-model"
+      },
+      {
+        "question": "What command is used to create a new Angular component using Angular CLI?",
+        "options": [
+          "ng generate component <component-name>",
+          "ng new component <component-name>",
+          "ng create component <component-name>",
+          "ng add component <component-name>"
+        ],
+        "answer": "ng generate component <component-name>"
+      },
+      {
+        "question": "Which decorator is used to define an Angular component?",
+        "options": [
+          "@Component",
+          "@Injectable",
+          "@NgModule",
+          "@Directive"
+        ],
+        "answer": "@Component"
+      },
+      {
+        "question": "Which Angular module is necessary for HTTP operations?",
+        "options": [
+          "HttpClientModule",
+          "FormsModule",
+          "CommonModule",
+          "BrowserModule"
+        ],
+        "answer": "HttpClientModule"
+      },
+      {
+        "question": "What is the purpose of the Angular CLI?",
+        "options": [
+          "To automate common Angular tasks",
+          "To style components",
+          "To manage dependencies",
+          "To create custom directives"
+        ],
+        "answer": "To automate common Angular tasks"
+      },
+      {
+        "question": "Which Angular directive is used for structural directives?",
+        "options": [
+          "*ngIf",
+          "*ngFor",
+          "*ngModel",
+          "*ngSwitch"
+        ],
+        "answer": "*ngFor"
+      },
+      {
+        "question": "What is the default change detection strategy in Angular?",
+        "options": [
+          "Default",
+          "OnPush",
+          "Lazy",
+          "Eager"
+        ],
+        "answer": "Default"
+      },
+      {
+        "question": "What is the correct way to bind a value to an input field in Angular?",
+        "options": [
+          "[value]='inputValue'",
+          "[(ngModel)]='inputValue'",
+          "{{ inputValue }}",
+          "[ngModel]='inputValue'"
+        ],
+        "answer": "[(ngModel)]='inputValue'"
+      },
+      {
+        "question": "Which of the following is used to navigate between components in Angular?",
+        "options": [
+          "RouterModule",
+          "FormsModule",
+          "HttpClientModule",
+          "CommonModule"
+        ],
+        "answer": "RouterModule"
+      },
+      {
+        "question": "What does the Angular lifecycle hook ngOnInit() do?",
+        "options": [
+          "It runs once after the component's initialization",
+          "It is used for initialization of services",
+          "It is used to run HTTP requests",
+          "It is used for cleanup tasks"
+        ],
+        "answer": "It runs once after the component's initialization"
+      }
+    ],
+    "JavaScript": [
+      {
+        "question": "What is the output of `console.log(typeof null);`?",
+        "options": [
+          "'null'",
+          "'undefined'",
+          "'object'",
+          "'number'"
+        ],
+        "answer": "'object'"
+      },
+      {
+        "question": "Which keyword is used to declare a constant variable in JavaScript?",
+        "options": [
+          "let",
+          "var",
+          "const",
+          "static"
+        ],
+        "answer": "const"
+      },
+      {
+        "question": "Which method is used to convert a JSON string into a JavaScript object?",
+        "options": [
+          "JSON.parse()",
+          "JSON.stringify()",
+          "JSON.convert()",
+          "JSON.objectify()"
+        ],
+        "answer": "JSON.parse()"
+      },
+      {
+        "question": "What will `typeof NaN` return in JavaScript?",
+        "options": [
+          "number",
+          "NaN",
+          "undefined",
+          "object"
+        ],
+        "answer": "number"
+      },
+      {
+        "question": "Which function is used to add an event listener in JavaScript?",
+        "options": [
+          "addEventListener()",
+          "onEvent()",
+          "listenEvent()",
+          "bindEvent()"
+        ],
+        "answer": "addEventListener()"
+      },
+      {
+        "question": "Which method is used to find the length of an array in JavaScript?",
+        "options": [
+          "length",
+          "size",
+          "count",
+          "arrayLength"
+        ],
+        "answer": "length"
+      },
+      {
+        "question": "Which method is used to round a number to the nearest integer in JavaScript?",
+        "options": [
+          "Math.round()",
+          "Math.ceil()",
+          "Math.floor()",
+          "Math.trunc()"
+        ],
+        "answer": "Math.round()"
+      },
+      {
+        "question": "Which JavaScript operator is used to check both type and value?",
+        "options": [
+          "===",
+          "==",
+          "!==",
+          "!"
+        ],
+        "answer": "==="
+      },
+      {
+        "question": "Which method is used to remove the last element from an array in JavaScript?",
+        "options": [
+          "pop()",
+          "shift()",
+          "slice()",
+          "remove()"
+        ],
+        "answer": "pop()"
+      },
+      {
+        "question": "What does `JSON.stringify()` do in JavaScript?",
+        "options": [
+          "Converts a JavaScript object into a JSON string",
+          "Parses a JSON string into a JavaScript object",
+          "Converts a JavaScript object into an array",
+          "Converts a JavaScript array into a string"
+        ],
+        "answer": "Converts a JavaScript object into a JSON string"
+      }
+    ]
+  }
+}
